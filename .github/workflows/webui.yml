@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v6
       with:
         node-version: 'latest'
-        package-manager: 'npm'
+        cache: 'npm'
     - name: build
       run: |
         npm install
